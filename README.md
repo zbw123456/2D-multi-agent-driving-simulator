@@ -28,7 +28,7 @@ Design & Implementation Guidelines
 
 - Scenario Choice: Focus on a single driving scenario, such as an intersection, multi-lane highway, or traffic light, that best demonstrates the environment's capability to manage self-play. The environment should be modular to ease the addition of new scenarios without major re-engineering.
 - Visualization & Debugging: Include a visualization tool (even a simple 2D rendering or console-based view) to monitor and debug agent behaviors.
-- Integration with RL Libraries:** Demonstrate how your environment integrates with standard RL libraries, ensuring correct handling of multi-agent batch data during policy updates.
+- Integration with RL Libraries: Demonstrate how your environment integrates with standard RL libraries, ensuring correct handling of multi-agent batch data during policy updates.
 - Code Organization: Prepare your repository on GitHub with a clear folder structure and include thorough documentation (README or Wiki) that explains design choices, performance challenges, and areas for future improvement.
 - Partial Solutions are Acceptable: The project is designed with a limited timeframe in mind, so demonstrating a basic working solution with partial training results and logs is acceptable[1].
 
