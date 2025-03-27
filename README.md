@@ -8,7 +8,7 @@ The assignment challenges you to design and implement a multi-agent environment 
 
 Project Objectives
 
-- Multi-Agent Simulation:** Develop a 2D driving environment where multiple vehicles interact and learn through self-play using a shared RL policy.
+- Multi-Agent Simulation: Develop a 2D driving environment where multiple vehicles interact and learn through self-play using a shared RL policy.
 - RL Integration: Implement and demonstrate partial or full integration with an RL algorithm (e.g., PPO) to assess learning efficiency and performance in a multi-agent setting.
 - Rapid Prototyping: Emphasize quick iteration and adaptation in environment building, showcasing your ability to prototype robust multi-agent systems rapidly[1].
 
