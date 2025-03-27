@@ -40,11 +40,12 @@ Evaluation Criteria
 - Visualization & Debug Tools: Availability of mechanisms to monitor agent behavior and assess training performance.
 - Documentation and Code Quality: Clear, well-structured code hosted on GitHub with adequate documentation explaining design decisions, encountered challenges, and future directions for improvement[1].
   
-Installation
-pip install -r requirements.txt
-
-replace torch with CUDA-enabled version
-torch>=2.3.0 --extra-index-url https://download.pytorch.org/whl/cu121
+2D-multi-agent-driving-simulator/
+├── configs/           # Map configurations
+├── envs/              # Environment classes
+├── policies/          # RL policy implementations
+├── utils/             # Visualization and logging
+└── train.py           # Main training script
 
 
 Citations:
