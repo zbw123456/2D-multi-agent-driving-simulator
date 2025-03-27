@@ -17,29 +17,29 @@ Key Components
 
 | Component                 | Details                                                                                                                                                                 |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Environment Efficiency**| Ensure large-batch scalability (e.g., handling 1000+ agents) using vectorized or batched operations for transformations, collision detection, etc.                    |
-| Map Representation**    | Encode roads, intersections, and lane boundaries in an easily queryable format that supports extension to different scenarios or custom map layouts.                     |
-| Reward Calculation**    | Design a flexible and efficient reward computation system that easily allows the addition of new reward components, including collision penalties, lane adherence, etc. |
-| Policy Training**       | Integrate the simulation with an RL method, handle multi-agent data batching, and monitor training progress through metrics like collision and success rates.            |
-| Policy Design**         | Implement a straightforward model architecture (e.g., a basic multilayer perceptron) with discrete actions (throttle/brake and steering bins) and allow for reward weighting. |
+| Environment Efficiency  | Ensure large-batch scalability (e.g., handling 1000+ agents) using vectorized or batched operations for transformations, collision detection, etc.                    |
+| Map Representation      | Encode roads, intersections, and lane boundaries in an easily queryable format that supports extension to different scenarios or custom map layouts.                     |
+| Reward Calculation      | Design a flexible and efficient reward computation system that easily allows the addition of new reward components, including collision penalties, lane adherence, etc. |
+| Policy Training         | Integrate the simulation with an RL method, handle multi-agent data batching, and monitor training progress through metrics like collision and success rates.            |
+| Policy Design           | Implement a straightforward model architecture (e.g., a basic multilayer perceptron) with discrete actions (throttle/brake and steering bins) and allow for reward weighting. |
 
 Each of these components is intended to test your ability to design a system that not only simulates realistic driving scenarios but also scales well when subjected to high computational loads[1].
 
-## Design & Implementation Guidelines
+Design & Implementation Guidelines
 
-- **Scenario Choice:** Focus on a single driving scenario, such as an intersection, multi-lane highway, or traffic light, that best demonstrates the environment's capability to manage self-play. The environment should be modular to ease the addition of new scenarios without major re-engineering.
-- **Visualization & Debugging:** Include a visualization tool (even a simple 2D rendering or console-based view) to monitor and debug agent behaviors.
-- **Integration with RL Libraries:** Demonstrate how your environment integrates with standard RL libraries, ensuring correct handling of multi-agent batch data during policy updates.
-- **Code Organization:** Prepare your repository on GitHub with a clear folder structure and include thorough documentation (README or Wiki) that explains design choices, performance challenges, and areas for future improvement.
-- **Partial Solutions are Acceptable:** The project is designed with a limited timeframe in mind, so demonstrating a basic working solution with partial training results and logs is acceptable[1].
+- Scenario Choice:** Focus on a single driving scenario, such as an intersection, multi-lane highway, or traffic light, that best demonstrates the environment's capability to manage self-play. The environment should be modular to ease the addition of new scenarios without major re-engineering.
+- Visualization & Debugging:** Include a visualization tool (even a simple 2D rendering or console-based view) to monitor and debug agent behaviors.
+- Integration with RL Libraries:** Demonstrate how your environment integrates with standard RL libraries, ensuring correct handling of multi-agent batch data during policy updates.
+- Code Organization:** Prepare your repository on GitHub with a clear folder structure and include thorough documentation (README or Wiki) that explains design choices, performance challenges, and areas for future improvement.
+- Partial Solutions are Acceptable:** The project is designed with a limited timeframe in mind, so demonstrating a basic working solution with partial training results and logs is acceptable[1].
 
-## Evaluation Criteria
+Evaluation Criteria
 
-- **Efficiency & Scalability:** Ability of the simulation to handle large-scale agent interactions without significant performance degradation.
-- **Extensibility:** How easily new environmental scenarios, map configurations, or reward components can be integrated.
-- **RL Integration:** Correct and effective integration with RL training processes, including batching of rollouts and policy updates.
-- **Visualization & Debug Tools:** Availability of mechanisms to monitor agent behavior and assess training performance.
-- **Documentation and Code Quality:** Clear, well-structured code hosted on GitHub with adequate documentation explaining design decisions, encountered challenges, and future directions for improvement[1].
+- Efficiency & Scalability:** Ability of the simulation to handle large-scale agent interactions without significant performance degradation.
+- Extensibility:** How easily new environmental scenarios, map configurations, or reward components can be integrated.
+- RL Integration:** Correct and effective integration with RL training processes, including batching of rollouts and policy updates.
+- Visualization & Debug Tools:** Availability of mechanisms to monitor agent behavior and assess training performance.
+- Documentation and Code Quality:** Clear, well-structured code hosted on GitHub with adequate documentation explaining design decisions, encountered challenges, and future directions for improvement[1].
 
 In summary, the take-home project offers an opportunity to showcase your ability to design and implement a multi-agent RL environment with an emphasis on efficiency, extendability, and rapid prototyping. The assignment encourages experimentation with advanced features while focusing on the core aspects of environment design and RL integration. This demonstration of practical skills in creating scalable multi-agent systems is crucial for tackling real-world autonomous driving challenges.
 
