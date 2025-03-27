@@ -1,0 +1,17 @@
+{
+  "lanes": [
+    {
+      "id": "northbound",
+      "start": [0, 50],
+      "end": [0, -50],
+      "width": 3.5
+    },
+    {
+      "id": "eastbound",
+      "start": [-50, 0],
+      "end": [50, 0],
+      "width": 3.5
+    }
+  ],
+  "metadata": {"max_speed": 5.0}
+}
