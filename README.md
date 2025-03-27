@@ -1,4 +1,3 @@
-# 2D-multi-agent-driving-simulator
 Bosch thesis project: 2D multi-agent driving simulator
 
 This project is a take‐home assignment aimed at building a 2D multi-agent driving simulator where multiple vehicles are controlled via a single shared policy using self-play, inspired by large‐scale multi-agent reinforcement learning methods as exemplified in the Gigaflow paper[1]. 
