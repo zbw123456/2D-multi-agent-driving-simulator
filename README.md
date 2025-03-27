@@ -40,12 +40,6 @@ Evaluation Criteria
 - Visualization & Debug Tools: Availability of mechanisms to monitor agent behavior and assess training performance.
 - Documentation and Code Quality: Clear, well-structured code hosted on GitHub with adequate documentation explaining design decisions, encountered challenges, and future directions for improvement[1].
   
-2D-multi-agent-driving-simulator/
-├── configs/           # Map configurations
-├── envs/              # Environment classes
-├── policies/          # RL policy implementations
-├── utils/             # Visualization and logging
-└── train.py           # Main training script
 
 
 Citations:
