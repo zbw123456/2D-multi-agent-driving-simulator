@@ -1,6 +1,6 @@
 Bosch thesis project: 2D multi-agent driving simulator
 
-This project is a take‐home assignment aimed at building a 2D multi-agent driving simulator where multiple vehicles are controlled via a single shared policy using self-play, inspired by large‐scale multi-agent reinforcement learning methods as exemplified in the Gigaflow paper[1]. 
+This project is aimed at building a 2D multi-agent driving simulator where multiple vehicles are controlled via a single shared policy using self-play, inspired by large‐scale multi-agent reinforcement learning methods as exemplified in the Gigaflow paper[1]. 
 
 Overview
 
@@ -39,8 +39,13 @@ Evaluation Criteria
 - RL Integration: Correct and effective integration with RL training processes, including batching of rollouts and policy updates.
 - Visualization & Debug Tools: Availability of mechanisms to monitor agent behavior and assess training performance.
 - Documentation and Code Quality: Clear, well-structured code hosted on GitHub with adequate documentation explaining design decisions, encountered challenges, and future directions for improvement[1].
+  
+Installation
+pip install -r requirements.txt
 
-In summary, the take-home project offers an opportunity to showcase your ability to design and implement a multi-agent RL environment with an emphasis on efficiency, extendability, and rapid prototyping. The assignment encourages experimentation with advanced features while focusing on the core aspects of environment design and RL integration. This demonstration of practical skills in creating scalable multi-agent systems is crucial for tackling real-world autonomous driving challenges.
+replace torch with CUDA-enabled version
+torch>=2.3.0 --extra-index-url https://download.pytorch.org/whl/cu121
+
 
 Citations:
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/56721543/97bdddc5-f82a-451d-905a-c2f5798c5abd/20250306-Take-Home-Project_-Multi-Agent-Intersection-with-a-Shared-RL-Policy.docx
