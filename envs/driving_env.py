@@ -1,4 +1,3 @@
-# driving_env.py
 import numpy as np
 import json
 from typing import Dict, Tuple, Optional
